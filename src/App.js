@@ -6,12 +6,12 @@ import './App.css';
 // import Usereducer from './components/Usereducer';
 // import Usecontextp from './components/Usecontextp';
 // import Usememo from './components/Usememo';
-// import Usecallback from './components/Usecallback';
+import Usecallback from './components/Usecallback';
 // import UseImperativeHadelp from './components/UseImperativeHadelp';
 // import UseLayoutEffect from './components/UseLayoutEffect';
 // import UseLocation from './UseLocation';
 // import UseTransition from './components/UseTransition';
-import CustomeHooks from './components/CustomeHooks';
+// import CustomeHooks from './components/CustomeHooks';
 
 function App() {
   return (
@@ -23,12 +23,12 @@ function App() {
     {/* <Usereducer /> */}
     {/* <Usecontextp /> */}
     {/* <Usememo  /> */}
-    {/* <Usecallback /> */}
+    <Usecallback />
     {/* <UseImperativeHadelp /> */}
     {/* <UseLayoutEffect /> */}
     {/* <UseLocation /> */}
     {/* <UseTransition /> */}
-    <CustomeHooks />
+    {/* <CustomeHooks /> */}
   </div>
   );
 }

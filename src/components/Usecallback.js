@@ -5,9 +5,6 @@ const Usecallback = () => {
   const [count1, setCount1] = useState(0);
   const [count2, setCount2] = useState(0);
 
-useCallback(()=>{
-  return count1
-},[count1])
 
   const sample=useCallback(()=>{
     return count1

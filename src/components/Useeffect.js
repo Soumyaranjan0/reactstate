@@ -22,7 +22,7 @@ const Useeffect = () => {
     <>
       <button onClick={() => setAdd(!add)}>Add</button>
       <button onClick={() => setView(!view)}>View</button>
-      {view && <h3>Will Smith</h3>}
+      {view && <h4>Will Smith</h4>}
       {add && <h4>Einstein</h4>}
       <button onClick={() => setIsfetch(!isfetch)}>fetch</button>
     </>
